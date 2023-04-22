@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  sanei-printer-app:
+    build: .
+    image: drcoccodrillus/sanei-printer-app:latest
+    container_name: sanei-printers
+    restart: unless-stopped
+    privileged: true
+    devices:
+      - /dev:/dev
+    ports:
+      - "8631:631"
+    networks:
+      - printer-network
+
+networks:
+  printer-network:
+    name: printer-network
+    driver: bridge
