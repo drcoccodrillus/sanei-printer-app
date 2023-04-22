@@ -1,0 +1,260 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for Sanei SP3_21 Printer with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v2.4.1.
+*% Copyright 2009 by Sanei Electric Inc.
+*FormatVersion: "4.3"
+*FileVersion: "1.4"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "sanei_SP3_21.ppd"
+*Product: "(Sanei SP3_21 Printer)"
+*Manufacturer: "Sanei"
+*ModelName: "Sanei SP3_21 Printer"
+*ShortNickName: "Sanei SP3_21 Printer"
+*NickName: "Sanei SP3_21 Printer"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "8"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*cupsVersion: 1.4
+*cupsModelNumber: 1
+*cupsManualCopies: False
+*cupsFilter: "application/vnd.cups-raster 50 /usr/lib/cups/filter/rastertosanei"
+*cupsLanguages: "en"
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w384h480
+*PageSize w384h240/58mm x 30mm: "<</PageSize[136 85]/ImagingBBox null>>setpagedevice"
+*PageSize w384h320/58mm x 40mm: "<</PageSize[136 113]/ImagingBBox null>>setpagedevice"
+*PageSize w384h400/58mm x 50mm: "<</PageSize[136 142]/ImagingBBox null>>setpagedevice"
+*PageSize w384h480/58mm x 60mm: "<</PageSize[136 170]/ImagingBBox null>>setpagedevice"
+*PageSize w384h560/58mm x 70mm: "<</PageSize[136 198]/ImagingBBox null>>setpagedevice"
+*PageSize w384h640/58mm x 80mm: "<</PageSize[136 227]/ImagingBBox null>>setpagedevice"
+*PageSize w384h720/58mm x 90mm: "<</PageSize[136 255]/ImagingBBox null>>setpagedevice"
+*PageSize w384h800/58mm x 100mm: "<</PageSize[136 283]/ImagingBBox null>>setpagedevice"
+*PageSize w384h880/58mm x 110mm: "<</PageSize[136 312]/ImagingBBox null>>setpagedevice"
+*PageSize w384h960/58mm x 120mm: "<</PageSize[136 340]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1040/58mm x 130mm: "<</PageSize[136 369]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1120/58mm x 140mm: "<</PageSize[136 397]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1200/58mm x 150mm: "<</PageSize[136 425]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1280/58mm x 160mm: "<</PageSize[136 454]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1360/58mm x 170mm: "<</PageSize[136 482]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1440/58mm x 180mm: "<</PageSize[136 510]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1520/58mm x 190mm: "<</PageSize[136 539]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1600/58mm x 200mm: "<</PageSize[136 567]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1680/58mm x 210mm: "<</PageSize[136 595]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1760/58mm x 220mm: "<</PageSize[136 624]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1840/58mm x 230mm: "<</PageSize[136 652]/ImagingBBox null>>setpagedevice"
+*PageSize w384h1920/58mm x 240mm: "<</PageSize[136 680]/ImagingBBox null>>setpagedevice"
+*PageSize w384h2000/58mm x 250mm: "<</PageSize[136 709]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageSize
+*OpenUI *PageRegion/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w384h480
+*PageRegion w384h240/58mm x 30mm: "<</PageSize[136 85]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h320/58mm x 40mm: "<</PageSize[136 113]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h400/58mm x 50mm: "<</PageSize[136 142]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h480/58mm x 60mm: "<</PageSize[136 170]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h560/58mm x 70mm: "<</PageSize[136 198]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h640/58mm x 80mm: "<</PageSize[136 227]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h720/58mm x 90mm: "<</PageSize[136 255]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h800/58mm x 100mm: "<</PageSize[136 283]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h880/58mm x 110mm: "<</PageSize[136 312]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h960/58mm x 120mm: "<</PageSize[136 340]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1040/58mm x 130mm: "<</PageSize[136 369]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1120/58mm x 140mm: "<</PageSize[136 397]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1200/58mm x 150mm: "<</PageSize[136 425]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1280/58mm x 160mm: "<</PageSize[136 454]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1360/58mm x 170mm: "<</PageSize[136 482]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1440/58mm x 180mm: "<</PageSize[136 510]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1520/58mm x 190mm: "<</PageSize[136 539]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1600/58mm x 200mm: "<</PageSize[136 567]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1680/58mm x 210mm: "<</PageSize[136 595]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1760/58mm x 220mm: "<</PageSize[136 624]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1840/58mm x 230mm: "<</PageSize[136 652]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h1920/58mm x 240mm: "<</PageSize[136 680]/ImagingBBox null>>setpagedevice"
+*PageRegion w384h2000/58mm x 250mm: "<</PageSize[136 709]/ImagingBBox null>>setpagedevice"
+*CloseUI: *PageRegion
+*DefaultImageableArea: w384h480
+*ImageableArea w384h240/58mm x 30mm: "0 0 136 85"
+*ImageableArea w384h320/58mm x 40mm: "0 0 136 113"
+*ImageableArea w384h400/58mm x 50mm: "0 0 136 142"
+*ImageableArea w384h480/58mm x 60mm: "0 0 136 170"
+*ImageableArea w384h560/58mm x 70mm: "0 0 136 198"
+*ImageableArea w384h640/58mm x 80mm: "0 0 136 227"
+*ImageableArea w384h720/58mm x 90mm: "0 0 136 255"
+*ImageableArea w384h800/58mm x 100mm: "0 0 136 283"
+*ImageableArea w384h880/58mm x 110mm: "0 0 136 312"
+*ImageableArea w384h960/58mm x 120mm: "0 0 136 340"
+*ImageableArea w384h1040/58mm x 130mm: "0 0 136 369"
+*ImageableArea w384h1120/58mm x 140mm: "0 0 136 397"
+*ImageableArea w384h1200/58mm x 150mm: "0 0 136 425"
+*ImageableArea w384h1280/58mm x 160mm: "0 0 136 454"
+*ImageableArea w384h1360/58mm x 170mm: "0 0 136 482"
+*ImageableArea w384h1440/58mm x 180mm: "0 0 136 510"
+*ImageableArea w384h1520/58mm x 190mm: "0 0 136 539"
+*ImageableArea w384h1600/58mm x 200mm: "0 0 136 567"
+*ImageableArea w384h1680/58mm x 210mm: "0 0 136 595"
+*ImageableArea w384h1760/58mm x 220mm: "0 0 136 624"
+*ImageableArea w384h1840/58mm x 230mm: "0 0 136 652"
+*ImageableArea w384h1920/58mm x 240mm: "0 0 136 680"
+*ImageableArea w384h2000/58mm x 250mm: "0 0 136 709"
+*DefaultPaperDimension: w384h480
+*PaperDimension w384h240/58mm x 30mm: "136 85"
+*PaperDimension w384h320/58mm x 40mm: "136 113"
+*PaperDimension w384h400/58mm x 50mm: "136 142"
+*PaperDimension w384h480/58mm x 60mm: "136 170"
+*PaperDimension w384h560/58mm x 70mm: "136 198"
+*PaperDimension w384h640/58mm x 80mm: "136 227"
+*PaperDimension w384h720/58mm x 90mm: "136 255"
+*PaperDimension w384h800/58mm x 100mm: "136 283"
+*PaperDimension w384h880/58mm x 110mm: "136 312"
+*PaperDimension w384h960/58mm x 120mm: "136 340"
+*PaperDimension w384h1040/58mm x 130mm: "136 369"
+*PaperDimension w384h1120/58mm x 140mm: "136 397"
+*PaperDimension w384h1200/58mm x 150mm: "136 425"
+*PaperDimension w384h1280/58mm x 160mm: "136 454"
+*PaperDimension w384h1360/58mm x 170mm: "136 482"
+*PaperDimension w384h1440/58mm x 180mm: "136 510"
+*PaperDimension w384h1520/58mm x 190mm: "136 539"
+*PaperDimension w384h1600/58mm x 200mm: "136 567"
+*PaperDimension w384h1680/58mm x 210mm: "136 595"
+*PaperDimension w384h1760/58mm x 220mm: "136 624"
+*PaperDimension w384h1840/58mm x 230mm: "136 652"
+*PaperDimension w384h1920/58mm x 240mm: "136 680"
+*PaperDimension w384h2000/58mm x 250mm: "136 709"
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 10 AnySetup *Resolution
+*DefaultResolution: 203x203dpi
+*Resolution 203x203dpi/203x203dpi: "<</HWResolution[203 203]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+*OpenGroup: PrinterSettings/Printer Settings
+*OpenUI *FeedSizeBeforePrinting/Feed Size Before Printing: PickOne
+*OrderDependency: 20 AnySetup *FeedSizeBeforePrinting
+*DefaultFeedSizeBeforePrinting: BF0
+*FeedSizeBeforePrinting BF0/0mm: ""
+*FeedSizeBeforePrinting BF1/1mm: ""
+*FeedSizeBeforePrinting BF2/2mm: ""
+*FeedSizeBeforePrinting BF3/3mm: ""
+*FeedSizeBeforePrinting BF4/4mm: ""
+*FeedSizeBeforePrinting BF5/5mm: ""
+*FeedSizeBeforePrinting BF6/6mm: ""
+*FeedSizeBeforePrinting BF7/7mm: ""
+*FeedSizeBeforePrinting BF8/8mm: ""
+*FeedSizeBeforePrinting BF9/9mm: ""
+*FeedSizeBeforePrinting BF10/10mm: ""
+*FeedSizeBeforePrinting BF11/11mm: ""
+*FeedSizeBeforePrinting BF12/12mm: ""
+*FeedSizeBeforePrinting BF13/13mm: ""
+*FeedSizeBeforePrinting BF14/14mm: ""
+*FeedSizeBeforePrinting BF15/15mm: ""
+*FeedSizeBeforePrinting BF16/16mm: ""
+*FeedSizeBeforePrinting BF17/17mm: ""
+*FeedSizeBeforePrinting BF18/18mm: ""
+*FeedSizeBeforePrinting BF19/19mm: ""
+*FeedSizeBeforePrinting BF20/20mm: ""
+*FeedSizeBeforePrinting BF21/21mm: ""
+*FeedSizeBeforePrinting BF22/22mm: ""
+*FeedSizeBeforePrinting BF23/23mm: ""
+*FeedSizeBeforePrinting BF24/24mm: ""
+*FeedSizeBeforePrinting BF25/25mm: ""
+*FeedSizeBeforePrinting BF26/26mm: ""
+*FeedSizeBeforePrinting BF27/27mm: ""
+*FeedSizeBeforePrinting BF28/28mm: ""
+*FeedSizeBeforePrinting BF29/29mm: ""
+*FeedSizeBeforePrinting BF30/30mm: ""
+*CloseUI: *FeedSizeBeforePrinting
+*OpenUI *FeedSizeAfterPrinting/Feed Size After Printing: PickOne
+*OrderDependency: 20 AnySetup *FeedSizeAfterPrinting
+*DefaultFeedSizeAfterPrinting: AF0
+*FeedSizeAfterPrinting AF0/0mm: ""
+*FeedSizeAfterPrinting AF1/1mm: ""
+*FeedSizeAfterPrinting AF2/2mm: ""
+*FeedSizeAfterPrinting AF3/3mm: ""
+*FeedSizeAfterPrinting AF4/4mm: ""
+*FeedSizeAfterPrinting AF5/5mm: ""
+*FeedSizeAfterPrinting AF6/6mm: ""
+*FeedSizeAfterPrinting AF7/7mm: ""
+*FeedSizeAfterPrinting AF8/8mm: ""
+*FeedSizeAfterPrinting AF9/9mm: ""
+*FeedSizeAfterPrinting AF10/10mm: ""
+*FeedSizeAfterPrinting AF11/11mm: ""
+*FeedSizeAfterPrinting AF12/12mm: ""
+*FeedSizeAfterPrinting AF13/13mm: ""
+*FeedSizeAfterPrinting AF14/14mm: ""
+*FeedSizeAfterPrinting AF15/15mm: ""
+*FeedSizeAfterPrinting AF16/16mm: ""
+*FeedSizeAfterPrinting AF17/17mm: ""
+*FeedSizeAfterPrinting AF18/18mm: ""
+*FeedSizeAfterPrinting AF19/19mm: ""
+*FeedSizeAfterPrinting AF20/20mm: ""
+*FeedSizeAfterPrinting AF21/21mm: ""
+*FeedSizeAfterPrinting AF22/22mm: ""
+*FeedSizeAfterPrinting AF23/23mm: ""
+*FeedSizeAfterPrinting AF24/24mm: ""
+*FeedSizeAfterPrinting AF25/25mm: ""
+*FeedSizeAfterPrinting AF26/26mm: ""
+*FeedSizeAfterPrinting AF27/27mm: ""
+*FeedSizeAfterPrinting AF28/28mm: ""
+*FeedSizeAfterPrinting AF29/29mm: ""
+*FeedSizeAfterPrinting AF30/30mm: ""
+*CloseUI: *FeedSizeAfterPrinting
+*OpenUI *PrintDensity/Print Density: PickOne
+*OrderDependency: 20 AnySetup *PrintDensity
+*DefaultPrintDensity: PD100
+*PrintDensity PD60/60%: ""
+*PrintDensity PD80/80%: ""
+*PrintDensity PD100/100%: ""
+*PrintDensity PD120/120%: ""
+*PrintDensity PD140/140%: ""
+*PrintDensity PD160/160%: ""
+*CloseUI: *PrintDensity
+*OpenUI *PrintCompress/Print Compress: PickOne
+*OrderDependency: 20 AnySetup *PrintCompress
+*DefaultPrintCompress: PC1
+*PrintCompress PC0/Disable: ""
+*PrintCompress PC1/Enable: ""
+*CloseUI: *PrintCompress
+*CloseGroup: PrinterSettings
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of sanei_SP3_21.ppd, 13152 bytes.
