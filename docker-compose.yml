@@ -6,7 +6,6 @@ services:
     image: drcoccodrillus/sanei-printer-app:latest
     container_name: sanei-printers
     restart: unless-stopped
-    privileged: true
     devices:
       - /dev:/dev
     ports:
