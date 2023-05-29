@@ -9,6 +9,7 @@ A dockerized printer application based on CUPS for Sanei® printers
 The following Sanei printers are fully supported
 
 - SK1-21
+- SK1-31
 
 The following Sanei printers have not been tested yet
 - AL-58
@@ -21,7 +22,6 @@ The following Sanei printers have not been tested yet
 - SD1-31
 - SD3-21
 - SD3-22
-- SK1-31
 - SK1-41
 - SK4-21
 - SK4-31
