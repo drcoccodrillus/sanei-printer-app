@@ -74,7 +74,7 @@ Connect your Sanei printer to your machine
 - [ ] Full support for SD3-21
 - [ ] Full support for SD3-22
 - [x] Full support for SK1-21
-- [ ] Full support for SK1-31
+- [x] Full support for SK1-31
 - [ ] Full support for SK1-41
 - [ ] Full support for SK1-211
 - [ ] Full support for SK1-311
