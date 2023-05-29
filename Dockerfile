@@ -23,6 +23,12 @@ RUN chmod 755 x86_64/rastertosanei
 RUN cp -f x86_64/rastertosanei /usr/lib/cups/filter
 RUN cp -f x86_64/sanei_SK1_21.ppd /usr/share/cups/model
 
+#Drivers for Sanei SK1-31
+WORKDIR /printers/drivers/sk1_31
+RUN chmod 755 x86_64/rastertosanei
+RUN cp -f x86_64/rastertosanei /usr/lib/cups/filter
+RUN cp -f x86_64/sanei_SK1_31.ppd /usr/share/cups/model
+
 RUN rm -rf /printers/drivers
 
 WORKDIR /printers/bin
